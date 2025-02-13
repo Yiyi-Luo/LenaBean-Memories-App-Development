@@ -29,7 +29,7 @@ touch app/(tabs)/add.tsx
 touch app/(tabs)/reminders.tsx
 touch app/(tabs)/_layout.tsx
 touch app/utils/storage.ts
-touch app/utils/types.ts
+touch app/types.ts
 touch app/(tabs)/wisdombook.tsx
 ```
 
@@ -127,9 +127,9 @@ LenaBeanMemories/
 │   │   ├── reminders.tsx  # Reminders and tips
 │   │   ├── wisdombook.tsx # Wisdom book feature
 │   │   └── _layout.tsx    # Tab navigation setup
-│   └── utils/
-│       ├── storage.ts     # AsyncStorage management
-│       └── types.ts       # TypeScript definitions
+│   ├── utils/
+│   │   └── storage.ts     # AsyncStorage management
+│   └── types.ts           # TypeScript definitions
 ├── assets/
 │   ├── icon.png          # App icon
 │   └── splash.png        # Splash screen
