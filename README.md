@@ -29,7 +29,7 @@ touch app/(tabs)/add.tsx
 touch app/(tabs)/reminders.tsx
 touch app/(tabs)/_layout.tsx
 touch app/utils/storage.ts
-touch app/utils/types.ts
+touch app/types.ts
 touch app/(tabs)/wisdombook.tsx
 ```
 
