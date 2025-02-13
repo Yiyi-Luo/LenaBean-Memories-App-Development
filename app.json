@@ -1,0 +1,54 @@
+{
+ "expo": {
+   "name": "LenaBean",
+   "slug": "LenaBeanMemories",
+   "version": "1.0.0",
+   "orientation": "portrait",
+   "icon": "./assets/icon.png",
+   "userInterfaceStyle": "light",
+   "splash": {
+     "image": "./assets/splash.png",
+     "resizeMode": "contain",
+     "backgroundColor": "#ffffff"
+   },
+   "scheme": "lenabean",
+   "newArchEnabled": true,
+   "assetBundlePatterns": [
+     "**/*"
+   ],
+   "ios": {
+     "bundleIdentifier": "com.yiyi19911211.LenaBeanMemories",
+     "buildNumber": "1",
+     "supportsTablet": true,
+     "infoPlist": {
+       "UIBackgroundModes": ["fetch"]
+     }
+   },
+   "plugins": [
+     [
+       "expo-image-picker",
+       {
+         "photosPermission": "Allow LenaBean to access your photos"
+       }
+     ],
+     "expo-font",
+     "expo-router"
+   ],
+   "extra": {
+     "eas": {
+       "projectId": "b17f6165-5069-4843-88bf-a6bacd92fc95"
+     }
+   },
+   "runtimeVersion": {
+     "policy": "appVersion"
+   },
+   "updates": {
+     "url": "https://u.expo.dev/b17f6165-5069-4843-88bf-a6bacd92fc95"
+   },
+   "android": {
+     "permissions": [
+       "android.permission.RECORD_AUDIO"
+     ]
+   }
+ }
+}
