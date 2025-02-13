@@ -127,9 +127,9 @@ LenaBeanMemories/
 │   │   ├── reminders.tsx  # Reminders and tips
 │   │   ├── wisdombook.tsx # Wisdom book feature
 │   │   └── _layout.tsx    # Tab navigation setup
-│   └── utils/
-│       ├── storage.ts     # AsyncStorage management
-│       └── types.ts       # TypeScript definitions
+│   ├── utils/
+│   │   └── storage.ts     # AsyncStorage management
+│   └── types.ts           # TypeScript definitions
 ├── assets/
 │   ├── icon.png          # App icon
 │   └── splash.png        # Splash screen
